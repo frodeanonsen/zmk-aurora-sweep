@@ -1,0 +1,7 @@
+.west/
+build/
+config/splitkb_aurora_sweep.json
+modules/
+zephyr/
+zmk/
+
