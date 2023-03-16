@@ -49,7 +49,6 @@
     UC_MACRO(name ## _upper, &kp U0 &kp U1 &kp U2 &kp U3) \
     UC_MODMORPH(name, &name ## _lower, &name ## _upper)
 
-/* Norwegian letters */
-ZMK_UNICODE_PAIR(no_ae,   N0, N0,  E, N6,   N0, N0,  C, N6) // æ/Æ
-ZMK_UNICODE_PAIR(no_oe,   N0, N0,  F, N8,   N0, N0,  D, N8) // ø/Ø
-ZMK_UNICODE_PAIR(no_aa,   N0, N0,  E, N5,   N0, N0,  C, N5) // å/Å
+ZMK_UNICODE_PAIR(no_ae,   N0, N0,  E, N6,   N0, N0,  C, N6)
+ZMK_UNICODE_PAIR(no_oe,   N0, N0,  F, N8,   N0, N0,  D, N8)
+ZMK_UNICODE_PAIR(no_aa,   N0, N0,  E, N5,   N0, N0,  C, N5)
