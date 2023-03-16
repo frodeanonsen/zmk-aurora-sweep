@@ -9,6 +9,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include "norwegian.dtsi"
 
+#define HOST_OS=2
 
 &mt {
     flavor = "tap-preferred";
