@@ -12,9 +12,6 @@
 #include "helper.h"
 
 
-ZMK_UNICODE_PAIR(no_ae,   N0, N0,  E, N6,   N0, N0,  C, N6)
-ZMK_UNICODE_PAIR(no_oe,   N0, N0,  F, N8,   N0, N0,  D, N8)
-ZMK_UNICODE_PAIR(no_aa,   N0, N0,  E, N5,   N0, N0,  C, N5)
 
 
 &mt {
@@ -24,6 +21,9 @@ ZMK_UNICODE_PAIR(no_aa,   N0, N0,  E, N5,   N0, N0,  C, N5)
 
 
 / { 
+    ZMK_UNICODE_PAIR(no_ae,   N0, N0,  E, N6,   N0, N0,  C, N6)
+    ZMK_UNICODE_PAIR(no_oe,   N0, N0,  F, N8,   N0, N0,  D, N8)
+    ZMK_UNICODE_PAIR(no_aa,   N0, N0,  E, N5,   N0, N0,  C, N5)
 
     combos {
         compatible = "zmk,combos";
