@@ -68,14 +68,14 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-        td_comma: tapdance {
+        td_comma: tapdance_comma {
             compatible = "zmk,behavior-tap-dance";
             label = "TAPDANCE_COMMA";
             #binding-cells = <0>;
             tapping-term-ms = <190>;
             bindings = <&kp CMMA>, <&kp SCLN>;
         };
-        td_colon: tapdance {
+        td_colon: tapdance_colon {
             compatible = "zmk,behavior-tap-dance";
             label = "TAPDANCE_COLON";
             #binding-cells = <0>;
