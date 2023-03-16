@@ -87,7 +87,7 @@
 		    bindings = <
 		    &kp Q &kp W &kp E &kp R &kp T 						&kp Y &kp U  &kp I    &kp O   &kp P 
 		    &kp A &kp S &hm LALT D &hm LGUI F &kp G 			&kp H &kp J  &kp K    &kp L   &kp BKSP
-		    &mt LCMD Z &kp X &kp C &kp V &kp B				    &kp N &kp M  &mt SCLN CMMA &mt COLN DOT &to 1
+		    &mt LCMD Z &kp X &kp C &kp V &kp B				    &kp N &kp M  &td SCLN CMMA &td COLN DOT &to 1
           	&mt LC(LA(LCMD)) SPC &sk LSHIFT  		            &sk RCTRL &kp RET
 		    >;
 		};
