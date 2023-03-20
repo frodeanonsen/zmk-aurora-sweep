@@ -90,7 +90,7 @@
             label = "TAPDANCE_A";
             #binding-cells = <0>;
             tapping-term-ms = <190>;
-            bindings = <&kp a>, <&no_aa>;
+            bindings = <&kp A>, <&no_aa>;
         };
     };
 
@@ -103,7 +103,7 @@
 		    &kp Q &kp W &kp E &kp R &kp T 						&kp Y &kp U  &kp I    &kp O   &kp P 
 		    &td_a &kp S &hm LALT D &hm LGUI F &kp G 			&kp H &kp J  &kp K    &kp L   &kp BKSP
 		    &mt LCMD Z &mt RALT X &kp C &kp V &kp B				    &kp N &kp M  &td_comma   &td_colon  &to 1
-          	        &mt LC(LA(LCMD)) SPC &sk LSHIFT             &sk RCTRL &mt LS(LALT) RET
+          	        &mt LC(LA(LCMD)) SPC &sk LSHIFT             &sk RCTRL &mt LS(RALT) RET
 		    >;
 		};
 
