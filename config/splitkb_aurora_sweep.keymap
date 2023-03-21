@@ -114,10 +114,19 @@
  
    		default_layer {
 		    bindings = <
-		    &kp Q &kp W &td_e &kp R &kp T 						&kp Y &kp U  &kp I    &td_o   &kp P 
-		    &td_a &kp S &hm LALT D &hm LGUI F &kp G 			&kp H &kp J  &kp K    &kp L   &kp BKSP
-		    &mt LCMD Z &mt RALT X &kp C &kp V &kp B				    &kp N &kp M  &td_comma   &td_colon  &to 1
-          	        &mt LC(LA(LCMD)) SPC &sk LSHIFT             &sk RCTRL &mt LS(RALT) RET
+		    &kp Q       &kp W       &td_e       &kp R       &kp T 			&kp Y &kp U  &kp I      &td_o       &kp P 
+		    &td_a       &kp S       &hm LALT D  &hm LGUI F  &kp G 			&kp H &kp J  &kp K      &kp L       &kp BKSP
+		    &mt LCMD Z  &mt RALT X  &kp C       &kp V       &kp B		    &kp N &kp M  &td_comma  &td_colon   &to 1
+          	        &mt LC(LA(LCMD)) SPC    &sk LSHIFT                      &sk RCTRL &mt LS(RALT) RET
+		    >;
+		};
+
+   		code_layer {
+		    bindings = <
+		    &kp UNDER       &kp MINUS   &kp PLUS    &kp EQUAL   &kp SLASH       &kp SQT     &kp DQT     &kp GRAVE   &kp CARET   &kp DEL 
+		    &kp HASH        &kp STAR    &kp DOLLAR  &kp QMARK   &kp BSLH 	    &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp BKSP 
+		    &mt LCMD TILDE  &kp AT 	    &kp SQT     &kp DQT     &kp PIPE        &kp LPRN    &kp RPRN    &kp LBRC    &kp RBRC    &to 2
+					        &to 0  &sk LSHIFT					                   &sk RALT &kp RET
 		    >;
 		};
 
@@ -125,7 +134,7 @@
 		    bindings = <
 		    &kp N1  &kp N2    &kp N3    &kp N4    &kp N5		       &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 
 		    &kp TAB    &kp LC(S)    &kp DQT      &kp PIPE2     &kp HASH 		   &kp MINUS &kp EQL  &kp LBKT &kp RBKT  &kp DEL 
-		    &kp ESC    &kp TILDE 	&kp NON_US_BSLH &kp NON_US_HASH  &kp TILDE2    &kp MINUS &kp GRAVE &kp SCLN &kp COLN  &to 2
+		    &kp ESC    &kp TILDE 	&kp NON_US_BSLH &kp NON_US_HASH  &kp TILDE2    &kp MINUS &kp GRAVE &kp SCLN &kp COLN  &to 3
 					        &to 0  &sk LSHIFT					                   &sk RALT &kp RET
 		    >;
 		};
@@ -134,7 +143,7 @@
 		    bindings = <
 		    &kp BANG  &kp ATSN &kp HASH  &kp DLLR  &kp PRCT    			&kp CRRT  &kp AMPS &kp KMLT &kp LPRN &kp RPRN 
 		    &kp HASH  &kp QMARK  &kp FSLH  &kp COLN  &kp SCLN 			&kp MINUS &kp KP_EQUAL  &kp LBRC  &kp RBRC   &kp BKSP
-		    &kp LSFT  &kp KPLS &kp LBKT &kp RBKT   &kp BSLH    			&kp UNDER &kp LEFT &kp DOWN &kp UP  &to 3
+		    &kp LSFT  &kp KPLS &kp LBKT &kp RBKT   &kp BSLH    			&kp UNDER &kp LEFT &kp DOWN &kp UP  &to 4
 					      &to 0 &sk LGUI  				                &sk RALT &kp RET
 		    >;
 		};	
