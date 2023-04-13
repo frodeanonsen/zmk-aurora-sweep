@@ -114,10 +114,10 @@
  
    		default_layer {
 		    bindings = <
-		    &kp Q           &kp W       &td_e       &kp R       &kp T 			&kp Y &kp U  &kp I      &td_o       &kp P 
-		    &td_a           &kp S       &hm LALT D  &hm LGUI F  &kp G 			&kp H &kp J  &kp K      &kp L       &kp BKSP
-		    &mt LSHIFT Z    &mt RALT X  &kp C       &kp V       &kp B		    &kp N &kp M  &td_comma  &td_colon   &to 1
-          	                        &mt LC(LA(LCMD)) SPC    &sk LCMD            &sk RCTRL &mt LS(RALT) RET
+		    &kp Q           &kp W       &td_e       &kp R       &kp T 			&kp Y       &kp U       &kp I      &td_o       &kp P 
+		    &td_a           &kp S       &hm LALT D  &hm LGUI F  &kp G 			&kp H       &kp J       &kp K      &kp L       &kp BKSP
+		    &mt LSHIFT Z    &mt RALT X  &kp C       &kp V       &kp B		    &lt 1 N     &lt 2 M     &td_comma  &td_colon   &to 1
+          	                        &mt LC(LA(LCMD)) SPC    &sk LCMD            &sk RCTRL   &mt LS(RALT) RET
 		    >;
 		};
 
