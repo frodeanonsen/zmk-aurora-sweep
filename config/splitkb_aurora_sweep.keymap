@@ -62,6 +62,7 @@
             timeout-ms = <50>;
             key-positions = <23 24>;
             bindings = <&mo 3>;
+        };
     };
 
 
