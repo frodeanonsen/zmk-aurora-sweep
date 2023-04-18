@@ -66,6 +66,7 @@
     };
 
 
+
     behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
@@ -146,10 +147,10 @@
 
 		right_layer {
 		    bindings = <
-		    &kp BANG  &kp ATSN &kp HASH  &kp DLLR  &kp PRCT    			&kp CRRT  &kp AMPS      &kp KMLT &kp LPRN &kp RPRN 
-		    &kp HASH  &kp QMARK  &kp FSLH  &kp COLN  &kp SCLN 			&kp MINUS &kp K_VOL_DN  &kp K_VOL_UP  &kp RBRC   &kp BKSP
-		    &kp LSFT  &kp KPLS &kp LBKT &kp RBKT   &kp BSLH    			&kp UNDER &kp K_MUTE    &kp DOWN &kp UP  &to 4
-					      &to 0 &sk LGUI  				                &sk RALT &kp RET
+		    &kp BANG  &kp ATSN &kp HASH  &kp DLLR  &kp PRCT    			&kp CRRT    &kp AMPS      &kp KMLT      &kp LPRN    &kp RPRN 
+		    &kp HASH  &kp QMARK  &kp FSLH  &kp COLN  &kp SCLN 			&kp K_MUTE  &kp K_VOL_DN  &kp K_VOL_UP  &kp RBRC    &kp BKSP
+		    &kp LSFT  &kp KPLS &kp LBKT &kp RBKT   &kp BSLH    			&kp LBKT    &kp RBKT      &kp DOWN      &kp UP      &to 4
+					      &to 0 &sk LGUI  				                &sk RALT    &kp RET
 		    >;
 		};	
 
