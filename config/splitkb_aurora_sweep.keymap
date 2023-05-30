@@ -121,7 +121,7 @@
 		    bindings = <
 		    &kp Q           &kp W       &td_e       &kp R       &kp T 			&kp Y       &kp U       &kp I      &td_o       &kp P 
 		    &td_a           &kp S       &hm LALT D  &hm LGUI F  &kp G 			&kp H       &kp J       &kp K      &kp L       &kp BKSP
-		    &mt LSHIFT Z    &mt RALT X  &lt 4 C     &lt 2 V     &lt 1 B	    &kp N       &kp M       &kp COMMA  &kp COLON   &to 1
+		    &mt LSHIFT Z    &mt RALT X  &lt 4 C     &lt 2 V     &lt 1 B	    &kp N       &kp M       &kp COMMA  &kp DOT     &to 1
           	                        &mt LCTRL SPC    &sk LCMD            &sk RCTRL   &mt LS(RALT) RET
 		    >;
 		};
