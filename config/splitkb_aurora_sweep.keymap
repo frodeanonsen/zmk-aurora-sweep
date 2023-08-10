@@ -129,7 +129,7 @@
 
    		code_layer {
 		    bindings = <
-		    &kp UNDER           &kp MINUS   &kp PLUS    &kp EQUAL   &kp SLASH       &kp SQT     &kp DQT     &kp GRAVE   &kp no_oe   &kp PRCNT 
+		    &kp UNDER           &kp MINUS   &kp PLUS    &kp EQUAL   &kp SLASH       &kp SQT     &kp DQT     &kp GRAVE   &no_oe      &kp PRCNT 
 		    &kp HASH            &kp STAR    &kp DOLLAR  &kp QMARK   &kp BSLH 	      &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp DEL 
 		    &mt LSHIFT TILDE    &kp AT 	    &kp AMPS    &kp LPRN    &kp PIPE        &kp LPRN    &kp RPRN    &kp SCLN    &kp COLN    &to 2
 					                                        &kp LCTRL  &sk LCMD         &to 0   &kp RET
