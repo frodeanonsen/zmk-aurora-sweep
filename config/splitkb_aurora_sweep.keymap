@@ -15,7 +15,7 @@
 
 &mt {
     flavor = "tap-preferred";
-    tapping_term_ms = <90>;
+    tapping_term_ms = <150>;
 };
 
 
@@ -120,17 +120,17 @@
  
    		default_layer {
 		    bindings = <
-		    &kp Q           &kp W       &td_e       &kp R       &kp T 			&kp Y       &kp U       &kp I      &td_o       &kp P 
-		    &td_a           &kp S       &hm LALT D  &hm LGUI F  &kp G 			&kp H       &kp J       &kp K      &kp L       &kp BKSP
-		    &mt LSHIFT Z    &mt RALT X  &lt 4 C     &lt 2 V     &lt 1 B	    &kp N       &kp M       &kp COMMA  &kp DOT     &to 1
-          	                        &mt LCTRL SPC    &sk LCMD            &sk RSHIFT   &mt LS(RALT) RET
+		    &kp Q           &kp W       &kp E       &kp R       &kp T 			&kp Y       &kp U       &kp I      &kp O       &kp P 
+		    &kp A           &kp S       &hm LALT D  &hm LGUI F  &kp G 			&kp H       &kp J       &kp K      &kp L       &kp BKSP
+		    &kp Z           &mt RALT X  &lt 4 C     &lt 2 V     &lt 1 B	    &kp N       &kp M       &kp COMMA  &kp DOT     &to 1
+          	                        &mt LSHIFT SPC    &sk LCMD          &kp LCTRL   &kp RET
 		    >;
-		};
+		  };
 
    		code_layer {
 		    bindings = <
-		    &kp UNDER           &kp MINUS   &kp PLUS    &kp EQUAL   &kp SLASH       &kp SQT     &kp DQT     &kp GRAVE   &kp CARET   &kp PRCNT 
-		    &kp HASH            &kp STAR    &kp DOLLAR  &kp QMARK   &kp BSLH 	    &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp DEL 
+		    &kp UNDER           &kp MINUS   &kp PLUS    &kp EQUAL   &kp SLASH       &kp SQT     &kp DQT     &kp GRAVE   &kp no_oe   &kp PRCNT 
+		    &kp HASH            &kp STAR    &kp DOLLAR  &kp QMARK   &kp BSLH 	      &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp DEL 
 		    &mt LSHIFT TILDE    &kp AT 	    &kp AMPS    &kp LPRN    &kp PIPE        &kp LPRN    &kp RPRN    &kp SCLN    &kp COLN    &to 2
 					                                        &kp LCTRL  &sk LCMD         &to 0   &kp RET
 		    >;
