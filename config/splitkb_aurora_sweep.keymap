@@ -88,7 +88,7 @@
 		    &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &to 5
 					                   &kp LCTRL  &trans      					  &to 0   &kp RET
 		    >;
-		  }
+		  };
 
       bt_layer {
 		    bindings = <
