@@ -34,30 +34,6 @@
             bindings = <&kp TAB>;
         };
         
-        combo_ralt {
-            timeout-ms = <50>;
-            key-positions = <17 16>;
-            bindings = <&kp RALT>;
-        };
- 
-        combo_lalt {
-            timeout-ms = <50>;
-            key-positions = <11 12>;
-            bindings = <&kp LALT>;
-        };
-        
-        combo_lgui {
-            timeout-ms = <50>;
-            key-positions = <12 13>;
-            bindings = <&kp LGUI>;
-        };
-        
-        combo_rgui {
-            timeout-ms = <50>;
-            key-positions = <17 18>;
-            bindings = <&kp RGUI>;
-        };
-        
         combo_layer3 {
             timeout-ms = <50>;
             key-positions = <23 24>;
@@ -65,54 +41,9 @@
         };
     };
 
+    behaviors { };
 
-    behaviors {
-        hm: homerow_mods {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick_tap_ms = <0>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-        };
-        td_comma: tapdance_comma {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAPDANCE_COMMA";
-            #binding-cells = <0>;
-            tapping-term-ms = <190>;
-            bindings = <&kp CMMA>, <&kp SCLN>;
-        };
-        td_colon: tapdance_colon {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAPDANCE_COLON";
-            #binding-cells = <0>;
-            tapping-term-ms = <190>;
-            bindings = <&kp DOT>, <&kp COLN>;
-        };
-        td_a: tapdance_a {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAPDANCE_A";
-            #binding-cells = <0>;
-            tapping-term-ms = <250>;
-            bindings = <&kp A>, <&no_aa>;
-        };
-        td_e: tapdance_e {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAPDANCE_E";
-            #binding-cells = <0>;
-            tapping-term-ms = <250>;
-            bindings = <&kp E>, <&no_ae>;
-        };
-        td_o: tapdance_o {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAPDANCE_O";
-            #binding-cells = <0>;
-            tapping-term-ms = <250>;
-            bindings = <&kp O>, <&no_oe>;
-        };
-
-    };
+  };
 
 
     keymap {
@@ -120,10 +51,10 @@
  
    		default_layer {
 		    bindings = <
-		    &kp Q           &kp W       &kp E       &kp R       &kp T 			&kp Y       &kp U       &kp I      &kp O       &kp P 
-		    &kp A           &kp S       &hm LALT D  &hm LGUI F  &kp G 			&kp H       &kp J       &kp K      &kp L       &kp BKSP
-		    &mt LCTRL Z     &mt RALT X  &lt 4 C     &lt 2 V     &lt 1 B	    &kp N       &kp M       &kp COMMA  &kp DOT     &to 1
-          	                        &mt LSHIFT SPC    &sk LCMD          &kp RCTRL   &kp RET
+		    &kp Q           &kp W       &kp E     &kp R     &kp T 			&kp Y       &kp U       &kp I      &kp O       &kp P 
+		    &kp A           &kp S       &kp d     &kp F     &kp G 			&kp H       &kp J       &kp K      &kp L       &kp BKSP
+		    &mt LCTRL Z     &mt RALT X  &lt 4 C   &lt 2 V   &lt 1 B     &kp N       &kp M       &kp COMMA  &kp DOT     &to 1
+          	                          &mt LSHIFT SPC    &sk LCMD    &kp RCTRL   &kp RET
 		    >;
 		  };
 
@@ -156,7 +87,7 @@
 
 		  no_layer {
 		    bindings = <
-		    &ESC    &trans  &no_ae  &trans  &trans                  &trans  &trans  &trans  &no_oe  &trans
+		    &kp ESC &trans  &no_ae  &trans  &trans                  &trans  &trans  &trans  &no_oe  &trans
 		    &no_aa  &trans  &trans  &trans  &trans           		    &trans  &trans  &trans  &trans  &trans
 		    &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &to 5
 					                   &kp LCTRL  &trans      					  &to 0   &kp RET
