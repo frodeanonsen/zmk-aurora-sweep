@@ -5,3 +5,5 @@ modules/
 zephyr/
 zmk/
 
+left.uf2
+right.uf2
